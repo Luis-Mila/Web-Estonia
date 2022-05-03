@@ -1,40 +1,62 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Visitar Estonia</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,400&family=Oswald:wght@400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../css/estilos.css">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
+        <script src="../js/bootstrap.bundle.min.js"></script>
+        <link rel="stylesheet" href="../css/estilos.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,400&display=swap" rel="stylesheet">
+        <link rel="icon" type="image/icon" href="imagenes/favicon.png">
+        <title>Visitar Estonia</title>
+    </head>
     
+    <body>
+        <div class="container">
+            <header class="header">
+               
     
-</head>
+                  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="../index.html">
+                          <img src="../imagenes/visitarestonia2.png" alt="" width="200" height="100">
+                      </a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="../pages/por-que-estonia.html">Por qué</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="../pages/a-donde-ir.html">Donde ir</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link " href="../pages/contacto.html">Contacto</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link " href="../pages/historia.html">Historia</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </nav>
+                </div>
+            </header>
 
-<body>
-    <div class="contenedor">
-        <header class="header">
-            <img src="../imagenes/visitarestonia2.png" alt="visitarestonialogo" class="logo">
-            <nav class="menu"> 
-            
-                <ul>
-                    <li><a href="../inicio.html" class="nav-enlace">Inicio </a> </li>
-                    <li><a href="por-que-estonia.html" class="nav-enlace">Por qué </a> </li>
-                    <li><a href="a-donde-ir.html" class="nav-enlace">Donde ir </a> </li>
-                    <li><a href="contacto.html" class="nav-enlace">Contacto </a> </li>
-                    <li><a href="historia.html" class="nav-enlace">Historia </a></li>
-                </ul>
-    
-            </nav>
+    <main class="container" >
 
-        </header>
-
-    <main class="contenido" >
+      
         <h1>¿Quieres recibir asesoria personalizada?</h1><br>
         <p id="subtitulo">Contactanos y recibe respuesta hoy mismo!</p><br>
-        <section class="formulario">
+        <section class="form">
          <form action="" method="" enctype=""  > 
             <div>
                 <p><label for="nombre1">Nombre:</label>
@@ -93,19 +115,59 @@
         </form>
     </main>
 
-
-    
-        <footer class="footer">
-            <div class="redes">
-                <a href="http://www.Twitter.com" target="_blank" rel="noopener noreferrer">Twitter</a>   
-                <a href="http://www.instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a>
-                <a href="http://www.youtube.com" target="_blank" rel="noopener noreferrer">Youtube</a>
-                <a href="http://www.Facebook.com" target="_blank" rel="noopener noreferrer">Facebook</a>
-            </div>
-            <div class="legal">
-            <p>Visitar Estonia</p>
-            <p>Derechos Reservados - Visitar Estonia 2022</p>
-            </div>
+    <div class="container">
+      <footer class="bg-light text-center text-white">
+          <!-- Grid container -->
+          <div class="container p-4 pb-0">
+            <!-- Section: Social media -->
+            <section class="mb-4">
+              <!-- Facebook -->
+              <a
+                class="btn btn-primary btn-floating m-1"
+                style="background-color: #3b5998;"
+                href="#!"
+                role="button"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+        
+              <!-- Twitter -->
+              <a
+                class="btn btn-primary btn-floating m-1"
+                style="background-color: #55acee;"
+                href="#!"
+                role="button"
+                ><i class="fa-brands fa-twitter"></i></a>
+        
+              <!-- Google -->
+              <a
+                class="btn btn-primary btn-floating m-1"
+                style="background-color: #dd4b39;"
+                href="#!"
+                role="button"
+                ><i class="fab fa-google"></i
+              ></a>
+        
+              <!-- Instagram -->
+              <a
+                class="btn btn-primary btn-floating m-1"
+                style="background-color: #ac2bac;"
+                href="#!"
+                role="button"
+                ><i class="fab fa-instagram"></i
+              ></a>
+        
+              
+            </section>
+            
+          </div>
+          
+        
+          <!-- Copyright -->
+          <div class="text-center p-3" style="background-color: #0072CE">
+            © 2022 Copyright: Visitar Estonia
+            
+          </div>
+          <!-- Copyright -->
         </footer>
-        </div>
+  </div>
 </body>
