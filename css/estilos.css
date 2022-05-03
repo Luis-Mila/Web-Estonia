@@ -2,8 +2,14 @@
     margin: 0;
     padding: 0;
 }
+.container{
+    background: rgb(255, 255, 255);
+}
 
-body {
+.contenido #where img{
+    width: 500px;
+} 
+ body {
 	background: #E9ECF4;
 	color: #000;
 	font-family: 'Montserrat', sans-serif;
@@ -31,12 +37,6 @@ body {
 	border-radius: 4px;
 }
 
-.contenedor .header{
-   background: #0072CE; 
-   color: #fff;
-   grid-column-start: 1;
-   grid-column-end: -1;
-}
 
 
 .contenedor .contenido{
@@ -56,9 +56,9 @@ body {
 
  .contenido #where img{
      width: 500px;
- }
+ } */
 
- nav a {
+  /* nav a {
     text-decoration: none;
     color: inherit;
     font-size: 20px;
@@ -95,9 +95,9 @@ header{
 .logo{
     width: 300px;
     height: 100%;
-}
+}  */
 
-form{
+ form{
     
 	width:300px;
 	padding:16px;
@@ -169,7 +169,7 @@ form input[type="reset"]:hover{
     justify-content: center;
 }
 
-footer{
+/* footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -178,7 +178,7 @@ footer{
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 19%, rgba(0,75,136,1) 69%, rgba(0,75,136,1) 100%);
     
-}
+} */
 
 .textos{
     
@@ -286,7 +286,7 @@ h1{
 }
 ol p img {
  width: 500px;
-}
+} 
 
 /* Animaciones */
 
