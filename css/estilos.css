@@ -97,6 +97,7 @@ header{
     height: 100%;
 }  */
 
+
  form{
     
 	width:300px;
@@ -182,7 +183,7 @@ form input[type="reset"]:hover{
 
 .textos{
     
-    margin: 100px ;
+    margin: 200px ;
     display: flex;
     flex-direction: column;
     width:  800px;
@@ -208,13 +209,7 @@ form input[type="reset"]:hover{
 h1{
     text-align: center;
 }
-.video{
-    margin-bottom: 100px;
-    display: flex;
-    justify-content: center;
-    position: relative;
-    top: 5rem;
-     }
+
 
 .footer a {
     display: flex;
@@ -223,6 +218,7 @@ h1{
     text-decoration: none;
     color: #fff;
 }
+
 
 @media screen and (max-width: 768px) {
     .contenedor .contenido{
