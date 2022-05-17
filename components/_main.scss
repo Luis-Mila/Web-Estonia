@@ -43,31 +43,25 @@ h1{
 }
 .textos{
     
-    margin: 200px ;
-    display: flex;
-    flex-direction: column;
-    width:  800px;
+    position: relative;
+    
+    
 }
 .textos p{
     padding: 1.5rem;
 }
-.textos a{
-    padding: 1.5rem;
-}
+
 .city{
     padding: 2rem;
 }
-.primera{
-    display: flex;
-    align-items:center;
-    justify-content: space-around;
-    margin: 1.5rem;
-    padding: 2rem;
-    gap: 2rem;
-    
-}
+
 
 .links{
     padding: 2rem;
 }
 
+@media screen and (max-width: 768px){
+    .primera{display: none;}
+}
+
+    
