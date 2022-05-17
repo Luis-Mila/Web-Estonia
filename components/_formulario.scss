@@ -4,7 +4,7 @@ form{
 	padding:16px;
 	border-radius:10px;
 	margin:auto;
-	background-color:#0072CE;
+	background-color: map-get($estilos, color);
     form label{
 	width:72px;
 	font-weight:bold;
