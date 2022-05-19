@@ -1,0 +1,19 @@
+{
+  "name": "web-estonia",
+  "version": "1.0.0",
+  "description": "Proyecto para coderhouse llamado Visitar Estonia, el cual consiste en una web que contiene la informacion basica sobre la Republica de Estonia para futuros visitantes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Luis-Mila/Web-Estonia.git"
+  },
+  "author": "Luis Mila",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Luis-Mila/Web-Estonia/issues"
+  },
+  "homepage": "https://github.com/Luis-Mila/Web-Estonia#readme"
+}
