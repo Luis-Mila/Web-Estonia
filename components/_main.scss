@@ -60,16 +60,28 @@ h1{
     padding: 2rem;
 }
 
+
+
 @media screen and (max-width: 768px){
     .primera{display: none;}
 }
 
-@media screen and (max-width: 425px){
+@media screen and (min-width: 320px){
     div.container{
        width: 425px;
        
     }
     iframe{
-        width: 425px;
+        width: 300px;
+        position: relative;
+        left: 2rem;
+    }
+}
+@media screen and (min-width: 769px){
+    div.container{
+        width: 960px;
+    }
+    iframe{
+        width: 500px;
     }
 }
